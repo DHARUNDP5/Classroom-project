@@ -29,7 +29,7 @@ const homepage = () => {
         </div>
         </div>
         <div className='flex text-center items-center justify-center'>
-          <p className='text-[30px] text-white w-[1000px]'>A Student-Teacher Portal built using HTML, CSS, Tailwind Python and Django Class Manager is a Student-Teacher Portal where techers and student can sign up and teachers can add students in their class.</p>
+          <p className='text-[30px] text-white w-[1000px]'>A Student-Teacher Portal built using HTML, CSS, Tailwind ,Bootstrap Python and Django Class Manager is a Student-Teacher Portal where techers and student can sign up and teachers can add students in their class.</p>
         </div>
        
       </div>
