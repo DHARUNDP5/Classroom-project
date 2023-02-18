@@ -30,11 +30,9 @@ const homepage = () => {
       <div className='flex items-center justify-center'>
         <p className='text-[35px] text-white mt-[50px]'>Digital Learing</p>
         </div>
-      <div className='w-[400px]'>
-          <img src={book} className="rounded-full pl-[20px] h-[240px]" />
-          </div>
-          <div className='pl-[600px] items-center justify-center'>
-        <p className='text-center items-center justify-center text-[30px] text-white w-[1000px]'>A Student-Teacher Portal built using HTML, CSS, Tailwind ,Bootstrap 
+      <div className='flex'>
+          <img src={book} className="rounded-[140px] pl-[30px] h-[260px]" />
+        <p className='pl-[300px] mt-[50px] text-center items-center justify-center text-[30px] text-white w-[1200px]'>A Student-Teacher Portal built using HTML, CSS, Tailwind ,Bootstrap 
           Python and Django Class Manager is a 
           Student-Teacher Portal where techers Student-Teacher Portal where techers</p>
         </div>
