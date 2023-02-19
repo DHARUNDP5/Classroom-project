@@ -9,9 +9,11 @@ const Header = () => {
     // }
     return (
         <div>
-            <div className="flex h-[100px] bg-blue-800">
+            <div className="flex h-[100px] bg-blue-800
+            sm:w-full sm:h-[200px]">
 
-                <div className='flex pt-[20px] ml-[20px] font-bold text-[28px] text-white'>
+                <div className='flex pt-[20px] ml-[20px] font-bold text-[28px] text-white
+                sm:text-[90px]'>
                     <p> Classroom Manager</p>
 
                 </div>
