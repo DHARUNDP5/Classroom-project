@@ -10,9 +10,6 @@ function App() {
       <Header/>
       <Homepage/>
       <Login />
-      {/* <Routes>
-        <Route path="/" element={<HomePage />} exact></Route>
-        </Routes> */}
     </div>
   )
 }
