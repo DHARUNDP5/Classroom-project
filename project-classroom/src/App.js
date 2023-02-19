@@ -9,9 +9,11 @@ function App() {
   return (
     <div>
       <Header/>
+      <Login />
+      <Homepage/>
       <Classroompage/>
-      {/* <Homepage/>
-      <Login /> */}
+      
+       
 
     </div>
   )
