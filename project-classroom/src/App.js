@@ -12,10 +12,7 @@ function App() {
       <Login />
       <Homepage/>
       <Classroompage/>
-      
-       
-
-    </div>
+      </div>
   )
 }
 
