@@ -1,7 +1,12 @@
 import React from 'react'
 
+import { useNavigate } from "react-router-dom";
 
-const login = () => {
+const Login = () => {
+    const Navigate = useNavigate();
+    const handelPages = () => {
+      Navigate("/classroompage");
+    }
     return (
         <div>
             <div className='h-screen  bg-blue-900 flex justify-center items-center'>
@@ -16,7 +21,7 @@ const login = () => {
                             <a href="#!" className='font-medium text-blue-900 hover:bg-blue-300 rounded-md p-2'>Forgot Password ?</a>
                         </div>
 
-                        <button className='text-center w-full bg-blue-900  hover:bg-blue-700 rounded-md text-white py-3 font-medium'>Login</button>
+                        <button onClick={handelPages} className='text-center w-full bg-blue-900  hover:bg-blue-700 rounded-md text-white py-3 font-medium'>Login</button>
                     </form>
                 </div>
             </div>
@@ -24,4 +29,4 @@ const login = () => {
     )
 }
 
-export default login
+export default Login

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Route, Routes } from "react-router-dom";
 import Homepage from './Homepage/homepage'
 import Header from './Components/Header/header'
 import Login from './Login/login'
@@ -9,9 +10,14 @@ function App() {
   return (
     <div>
       <Header/>
-      <Login />
-      <Homepage/>
-      <Classroompage/>
+      <Routes>
+        <Route path="/" element={<Homepage/>} exact></Route>
+        <Route path="/Login" element={<Login/>}></Route>
+        <Route path="/Classroompage" element={<Classroompage/>}></Route>
+      </Routes>
+      {/* <Login /> */}
+      {/* <Homepage/>
+      <Classroompage/> */}
       </div>
   )
 }
